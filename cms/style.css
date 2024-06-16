@@ -66,4 +66,40 @@
     margin: auto;
     size: 50%;
  }
+
+
+/* style.css */
+#catg {
+    background-image: url('images/category-bg.jpg'); /* Replace with your background image path */
+    background-size: cover;
+    background-position: center;
+    padding: 20px;
+}
+
+.carousel-item .card {
+    background-color: rgba(255, 255, 255, 0.7); /* White with opacity */
+    border: none;
+    border-radius: 10px;
+    max-width: 400px;  /* Increased width */
+    min-height: 400px; /* Increased height */
+    margin: auto;
+    box-shadow: 0 0 25px 5px rgba(251, 251, 251, 0.411);
+    
+}
+
+.card img {
+    height: 250px;  /* Adjusted height for the image */
+    object-fit: cover;
+}
+
+.card-title, .card-text, .card-icon {
+    margin: 10px 0;
+}
+
+.card-icon img {
+    height: 30px;
+    width: 30px;
+}
+
+
 /* -------------------------CATEGORY END----------------------------------- */
