@@ -21,7 +21,7 @@ document.addEventListener('DOMContentLoaded', function () {
         { name: 'Coffee and Tea', text: 'Savor the best in coffee and tea, any time of day', icon: 'icons/coffee-icon.svg', image: 'images/cat-tea.jpg' },
         { name: 'Beverages', text: 'Refreshing drinks to quench your thirst.', icon: 'icons/beverage-icon.svg', image: 'images/cat-bev.jpeg' },
         { name: 'Breakfast', text: 'Enjoy a hearty breakfast to fuel your day.', icon: 'icons/breakfast-icon.svg', image: 'images/cat-bf.jpg' },
-        { name: 'Lunch', text: 'Delicious lunch meals for your afternoon break.', icon: 'icons/lunch-icon.svg', image: 'images/lunch.jpg' },
+        { name: 'Lunch', text: 'Delicious lunch meals for your afternoon break.', icon: 'icons/lunch-icon.svg', image: 'images/cat-lunch.jpg' },
         { name: 'Soups', text: 'Indulge in our variety of fresh, tasty soups.', icon: 'icons/soup-icon.svg', image: 'images/cat-soup.jpg' }
     ];
 
@@ -47,4 +47,32 @@ document.addEventListener('DOMContentLoaded', function () {
     });
 });
 
+function decreaseQuantity(button) {
+    var input = button.nextElementSibling;
+    var currentValue = parseInt(input.value);
+    if (currentValue > 1) {
+      input.value = currentValue - 1;
+    }
+  }
 
+function increaseQuantity(button) {
+    var input = button.previousElementSibling;
+    var currentValue = parseInt(input.value);
+    input.value = currentValue + 1;
+  }
+
+
+// function increaseValue() {
+//     var value = parseInt(document.getElementById('number').value, 10);
+//     value = isNaN(value) ? 0 : value;
+//     value++;
+//     document.getElementById('number').value = value;
+//   }
+  
+//   function decreaseValue() {
+//     var value = parseInt(document.getElementById('number').value, 10);
+//     value = isNaN(value) ? 0 : value;
+//     value < 1 ? value = 1 : '';
+//     value--;
+//     document.getElementById('number').value = value;
+//   }

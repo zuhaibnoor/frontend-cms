@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>C For Cafeteria</title>
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container-fluid">
+        <!------------------------NAVBAR START------------------------------->
+        <div class="row">
+            <div class="col-12">
+                <nav id="navbar" class="navbar fixed-top">
+                    <div class="container-fluid">
+                        <a class="navbar-brand" href="index.html" id="navbar-heading">C for Cafeteria</a>
+                        <div class="d-flex ms-auto">
+                            <!-- Login Button -->
+                            <button class="btn btn-primary me-2" type="button" id="login-btn">
+                                <img src="icons/user-regular.svg" height="20px" width="20px">
+                                Login
+                            </button>
+                            <!-- Navbar Toggler -->
+                            <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar">
+                                <img src="icons/navbar-bars.svg" height="40px" width="40px">
+                            </button>
+                        </div>
+                        <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                            <div class="offcanvas-header">
+                                <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Menu</h5>
+                                <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+                            </div>
+                            <div class="offcanvas-body">
+                                <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                                    <li class="nav-item">
+                                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="cart.html">Cart</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="reservation.html">Reserve a Table!</a>
+                                    </li>
+                                    <li class="nav-item">
+                                        <a class="nav-link" href="#">Contact Us</a>
+                                    </li>
+                                    
+                                </ul>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </nav>
+            </div>
+        </div>
+<!---------------------------NAVBAR END--------------------------------->
+
+<div class="row">
+    <div class="col p-0">
+        <img src="images/cart-bg.jpg" alt="cart-background" class="img-fluid ml-0 mr-0" id="cart-bg">
+                <div class="card-img-overlay" style="margin-top: 5%; color: white;">
+
+                </div>
+                
+    </div>
+</div>
+
+
+
+        <!------------------------------------FOOTER START----------------------------------->
+        <div class = "row">
+            <div class = "col p-0">
+                <footer class="footer">
+                    <div class="container text-center">
+                        <h5 class="mb-4">Follow Us</h5>
+                        <div class="social-icons">
+                        <a href="#" class="fab fa-facebook-f"></a>
+                        <a href="#" class="fab fa-twitter"></a>
+                        <a href="#" class="fab fa-instagram"></a>
+                        <a href="#" class="fab fa-linkedin-in"></a>
+                        </div>
+                        <hr class="my-4">
+                        <div class="row">
+                        <div class="col-md-4">
+                            <h6>Quick Links</h6>
+                            <ul class="list-unstyled">
+                            <li><a href="#">Home</a></li>
+                            <li><a href="#">About Us</a></li>
+                            <li><a href="#">Contact</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h6>Resources</h6>
+                            <ul class="list-unstyled">
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">FAQs</a></li>
+                            <li><a href="#">Support</a></li>
+                            </ul>
+                        </div>
+                        <div class="col-md-4">
+                            <h6>Legal</h6>
+                            <ul class="list-unstyled">
+                            <li><a href="#">Privacy Policy</a></li>
+                            <li><a href="#">Terms of Service</a></li>
+                            </ul>
+                        </div>
+                        </div>
+                        <hr class="my-4">
+                        <p>&copy; 2024  C for Cafeteria</p>
+                    </div>
+                    </footer>
+                    
+        </div>
+        <!------------------------------------FOOTER END----------------------------------->
+    </div> <!--container div-->
+    
+
+
+    <script src="script.js"></script>
+    <script src="js/bootstrap.js"></script>
+</body>
+</html>
