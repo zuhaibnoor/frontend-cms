@@ -344,7 +344,34 @@
     object-fit: cover;
 }
 
-
+.reservation-form {
+    background-color: rgba(255, 248, 220, 0.9); /* Cornsilk background for the form with transparency */
+    border-radius: 10px;
+    padding: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .reservation-form h2 {
+    color: #8b4513; /* SaddleBrown color for headings */
+  }
+  
+  .reservation-form label {
+    color: #a0522d; /* Sienna color for labels */
+  }
+  
+  .reservation-form .form-control {
+    border-radius: 5px;
+    border: 1px solid #deb887; /* BurlyWood border for inputs */
+  }
+  
+  .btn-primary {
+    background-color: #cd853f; /* Peru color for button */
+    border: none;
+  }
+  
+  .btn-primary:hover {
+    background-color: #d2691e; /* Chocolate color for hover effect */
+  }
 /*----------------------------------------------------------------------------------*/
 /*----------------------------------RESERVATION PAGE END----------------------------*/
 /*----------------------------------------------------------------------------------*/
